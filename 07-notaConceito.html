@@ -1,0 +1,11 @@
+<script>
+    
+    
+    const nota = Number(prompt(`Informe sua nota:`));
+    
+    let conceito ;
+    (nota < 6)? conceito = "E" : (nota < 7)? conceito = "D": (nota < 8)? conceito = "C" : (nota < 9)? conceito = "B" : conceito = "A";
+
+    
+    document.write(`O conceito da sua nota foi : ${conceito}`);
+</script>
